@@ -1,0 +1,12 @@
+{
+  "name": "cfyouxuan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker IPv4 subscription aggregator",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}

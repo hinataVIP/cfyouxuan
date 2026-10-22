@@ -1,0 +1,16 @@
+name = "cfyouxuan"
+main = "src/index.js"
+compatibility_date = "2026-10-21"
+
+[vars]
+# Replace with your own random string (at least 24 characters).
+SUB_PATH_TOKEN = "REPLACE_WITH_RANDOM_24_PLUS_CHAR_TOKEN"
+
+[[kv_namespaces]]
+binding = "CF_IP_DATA"
+# Replace with the real KV namespace ID from Cloudflare.
+id = "REPLACE_WITH_REAL_KV_NAMESPACE_ID"
+
+[triggers]
+# 03:17 UTC = 11:17 Beijing time daily.
+crons = ["17 3 * * *"]
